@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="renderer" content="webkit">
+	<title>价格查询</title>
+	<style>
+		*{padding: 0; margin: 0; border: 0; list-style:none;}
+		body{font:14px/1.6 '微软雅黑'; color:#555; background-color: #f9f9f9; text-align: center;}
+		.wrap{width: 80%; max-width:1000px; margin: 40px auto; padding: 20px; box-sizing:border-box; background-color: #fff; box-shadow:0 0 5px rgba(55,55,55,0.2);}
+		h1{line-height: 2; color: #333;}
+		#form{margin-top: 20px;}
+		#form input{width: 250px; height: 20px; line-height: 20px; padding: 10px 15px; background-color: #fff; border: 1px solid #DDD; box-shadow:0 0 4px #DDD inset; font-size:16px; font-weight:bold; color:#0E90D2; letter-spacing:2px;}
+		#form input:focus{ box-shadow:0 0 4px #0E90D2; border-color:#0E90D2;}
+		#form button{ padding: 8px 40px; font-size:16px; background-color: #E6E6E6; display: inline-block; cursor:pointer; border: 1px solid #E6E6E6; transition:all 0.3s; }
+		#form button:hover{background-color: #DDD; border: 1px solid #c7c7c7;}
+		table{border-collapse:collapse; border:none; width: 100%; margin-top: 30px;}
+		td,th{border:#DDD solid 1px; padding:8px 0;}
+		th{background-color: #f5f5f5;}
+    tr td:nth-child(-n+2){text-align: left; padding-left: 12px;}
+    tr td a{color: #0E90D2;}
+    tr td a:hover{color: #f04848;}
+    h3{padding: 30px; text-align: center; font-size: 20px; margin-top: 20px; background-color: #f5f5f5; border: 1px solid #eee;}
+	</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>商品最低价格查询</h1>
+    <form id="form" action="/" method="post">
+      <input type="text" name="text" placeholder="输入你要查询的商品">
+      <button type="submit">查询</button>
+    </form>
+    <table>
+      <tr>
+        <th>商品名称</th>
+        <th>最低价</th>
+        <th width="11%">促销时间</th>
+        <th width="12%">促销平台</th>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

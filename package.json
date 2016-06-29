@@ -1,26 +1,22 @@
 {
   "name": "robot",
   "version": "1.0.0",
-  "description": "a script to find the history prices",
+  "description": "一个用来查找商品过往优惠价格的小程序",
   "main": "index.js",
-  "dependencies": {
-    "robot": "^7.5.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "\u0016"
-  },
-  "bugs": {
-    "url": "https://github.com/rossroma/robot/issues"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "robot"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossroma/robot.git"
+  },
+  "keywords": [],
   "author": "rossroma",
-  "license": "MIT",
-  "homepage": "https://github.com/rossroma/robot"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossroma/robot/issues"
+  },
+  "homepage": "https://github.com/rossroma/robot#readme"
 }

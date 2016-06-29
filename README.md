@@ -16,8 +16,8 @@
 ### index.html
 这是一个完整的html静态页面，里面的内容可以被读取并输出到前端。
 
-#start
-
+#start   
+`npm install`   
 `node index.js`
 
 打开浏览器，访问 http://127.0.0.1:8888

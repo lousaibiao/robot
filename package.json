@@ -1,0 +1,26 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "a script to find the history prices",
+  "main": "index.js",
+  "dependencies": {
+    "robot": "^7.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016"
+  },
+  "bugs": {
+    "url": "https://github.com/rossroma/robot/issues"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robot"
+  ],
+  "author": "rossroma",
+  "license": "MIT",
+  "homepage": "https://github.com/rossroma/robot"
+}

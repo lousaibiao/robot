@@ -2,9 +2,7 @@
 一个用来查找商品过往优惠价格的小程序
 
 #使用介绍
-程序基于nodeJS书写；  
-
-本程序使用了cheerio组件，请务必安装此组件，可以使用 `npm install cheerio` 来安装；  
+本程序依赖于NodeJS，使用前请务必安装好NodeJS；  
 
 #文档介绍
 ### index.js
@@ -16,8 +14,10 @@
 ### index.html
 这是一个完整的html静态页面，里面的内容可以被读取并输出到前端。
 
-#start   
+#start
+
 `npm install`   
+
 `node index.js`
 
 打开浏览器，访问 http://127.0.0.1:8888
